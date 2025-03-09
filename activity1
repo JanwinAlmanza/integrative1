@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* ssid = "k";
-const char* password = "1234567891011";
+const char* ssid = "janwin";
+const char* password = "12345";
 bool runAlt = false, runCenter = false;
 WebServer server(80);
 void handleRoot() {
